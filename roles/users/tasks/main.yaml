@@ -18,10 +18,4 @@
     name: user
     state: restarted
     enabled: yes
-
-
-
-
-
-
-
+    
