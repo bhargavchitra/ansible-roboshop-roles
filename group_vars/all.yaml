@@ -10,3 +10,4 @@ SHIPPING_HOST: shipping-dev.bunnyone.online
 RABBITMQ_HOST: rabbitmq-dev.bunnyone.online
 PAYMENT_HOST: payment-dev.bunnyone.online
 
+
