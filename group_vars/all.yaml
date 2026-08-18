@@ -1,0 +1,12 @@
+ansible_user: ec2-user
+ansible_password: DevOps321
+MONGODB_HOST: mongodb-dev.bunnyone.online
+CATALOGUE_HOST: catalogue-dev.bunnyone.online
+REDIS_HOST: redis-dev.bunnyone.online
+USER_HOST: user-dev.bunnyone.online
+CART_HOST: cart-dev.bunnyone.online
+MYSQL_HOST: mysql-dev.bunnyone.online
+SHIPPING_HOST: shipping-dev.bunnyone.online
+RABBITMQ_HOST: rabbitmq-dev.bunnyone.online
+PAYMENT_HOST: payment-dev.bunnyone.online
+
