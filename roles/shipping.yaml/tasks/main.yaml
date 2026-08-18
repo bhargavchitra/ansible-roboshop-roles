@@ -18,13 +18,8 @@
     name: "{{ item }}"
     executable: pip3.9
   loop:
-    - cryptography
-    - PyMySQL
-
-- name: install mysql client
-  ansible.builtin.dnf:
-    name: mysql
-    state: present
+  - cryptography
+  - PyMySQL
 
 - name: import shipping data
   community.mysql.mysql_db:
@@ -35,12 +30,14 @@
     login_password: RoboShop@1
     target: "{{ item }}"
   loop:
-    - /app/db/schema.sql
-    - /app/db/app-user.sql
-    - /app/db/master-data.sql
+  - /app/db/schema.sql
+  - /app/db/app-user.sql 
+  - /app/db/master-data.sql
 
 - name: start and enable shipping
   ansible.builtin.service:
     name: shipping
     state: restarted
     enabled: yes
+
+    
