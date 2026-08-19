@@ -12,11 +12,10 @@ compose:
 keyed_groups:
 - separator: ''
   # name of the group is frontend
-  key: tags.Component
+  key: tags.Name | regex_replace('-.*$', '')
 
 
 
 
 
 
-  
