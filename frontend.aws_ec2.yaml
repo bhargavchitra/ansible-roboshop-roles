@@ -12,22 +12,4 @@ compose:
 keyed_groups:
 - separator: ''
   # name of the group is frontend
-  key: frontend
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  key: tags.Component
